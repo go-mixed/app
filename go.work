@@ -1,0 +1,9 @@
+go 1.19
+
+use (
+	.
+)
+
+replace (
+	gopkg.in/go-mixed/framework.v1 => ../go-framework/
+)
