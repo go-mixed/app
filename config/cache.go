@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func cacheConfig() {
 
 	config.Add("cache", map[string]any{
 		// Default Cache Store

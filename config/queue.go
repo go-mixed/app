@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func queueConfig() {
 	config.Add("queue", map[string]any{
 		// Default Queue Connection Name
 		"default": config.Env("QUEUE_CONNECTION", "sync"),

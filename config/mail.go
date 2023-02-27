@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func mailConfig() {
 	config.Add("mail", map[string]any{
 		// SMTP Host Address
 		//

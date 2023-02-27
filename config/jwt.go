@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func jwtConfig() {
 	config.Add("jwt", map[string]any{
 		// JWT Authentication Secret
 		//

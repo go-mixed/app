@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func loggingConfig() {
 	config.Add("logging", map[string]any{
 		// Default Log Channel
 		//

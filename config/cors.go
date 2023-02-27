@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func corsConfig() {
 	config.Add("cors", map[string]any{
 		// Cross-Origin Resource Sharing (CORS) Configuration
 		//

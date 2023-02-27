@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func grpcConfig() {
 	config.Add("grpc", map[string]any{
 		// Grpc Configuration
 		//

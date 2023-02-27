@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func databaseConfig() {
 	config.Add("database", map[string]any{
 		// Default database connection name, only support Mysql now.
 		"default": config.Env("DB_CONNECTION", "mysql"),

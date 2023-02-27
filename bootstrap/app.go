@@ -8,13 +8,13 @@ import (
 )
 
 func Boot() {
-	app := &foundation.Application{}
-
-	//Bootstrap the application
-	app.Boot()
+	app := foundation.NewApplication()
 
 	//Bootstrap the config.
 	config.Boot()
+
+	//Bootstrap the application
+	app.Boot()
 
 	facades.Log.Errorf("")
 }

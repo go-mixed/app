@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	google.golang.org/grpc v1.50.1
-	gopkg.in/go-mixed/framework.v1 v1.0.0-20230222120636-1692d3d83b61
+	gopkg.in/go-mixed/framework.v1 v1.0.0-20230224084632-72eadd5f01b1
 )
 
 require (
@@ -47,6 +47,7 @@ require (
 	github.com/docker/docker v20.10.22+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
+	github.com/eddieowens/axon v0.7.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.8.2 // indirect
@@ -145,6 +146,7 @@ require (
 	go.mongodb.org/mongo-driver v1.7.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
+	go.uber.org/dig v1.16.1 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/net v0.6.0 // indirect

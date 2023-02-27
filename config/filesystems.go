@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func filesystemConfig() {
 	config.Add("filesystems", map[string]any{
 		// Default Filesystem Disk
 		//

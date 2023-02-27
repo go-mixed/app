@@ -4,7 +4,7 @@ import (
 	"gopkg.in/go-mixed/framework.v1/facades/config"
 )
 
-func init() {
+func authConfig() {
 	config.Add("auth", map[string]any{
 		// Authentication Defaults
 		//
