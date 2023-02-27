@@ -1,7 +1,7 @@
 package bootstrap
 
 import (
-	"gopkg.in/go-mixed/framework.v1/facades"
+	"gopkg.in/go-mixed/framework.v1/facades/log"
 	"gopkg.in/go-mixed/framework.v1/foundation"
 
 	"go-app/config"
@@ -16,5 +16,5 @@ func Boot() {
 	//Bootstrap the application
 	app.Boot()
 
-	facades.Log.Errorf("")
+	log.Debug("Application termination")
 }

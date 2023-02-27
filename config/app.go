@@ -11,7 +11,6 @@ import (
 	"gopkg.in/go-mixed/framework.v1/filesystem"
 	"gopkg.in/go-mixed/framework.v1/grpc"
 	"gopkg.in/go-mixed/framework.v1/http"
-	"gopkg.in/go-mixed/framework.v1/log"
 	"gopkg.in/go-mixed/framework.v1/mail"
 	"gopkg.in/go-mixed/framework.v1/queue"
 	"gopkg.in/go-mixed/framework.v1/route"
@@ -65,7 +64,6 @@ func appConfig() {
 		// request to your application. Feel free to add your own services to
 		// this array to grant expanded functionality to your applications.
 		"providers": []contracts.IServiceProvider{
-			&log.ServiceProvider{},
 			&console.ServiceProvider{},
 			&database.ServiceProvider{},
 			&cache.ServiceProvider{},
