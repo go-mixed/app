@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	google.golang.org/grpc v1.50.1
-	gopkg.in/go-mixed/framework.v1 v1.0.0-20230224084632-72eadd5f01b1
+	gopkg.in/go-mixed/framework.v1 v1.0.0-20230227021055-ec3a64638818
 )
 
 require (
@@ -47,7 +47,6 @@ require (
 	github.com/docker/docker v20.10.22+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
-	github.com/eddieowens/axon v0.7.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/gin-gonic/gin v1.8.2 // indirect
