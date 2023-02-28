@@ -2,14 +2,14 @@ package providers
 
 import (
 	"gopkg.in/go-mixed/framework.v1/contracts/event"
-	"gopkg.in/go-mixed/framework.v1/facades"
+	eventfacade "gopkg.in/go-mixed/framework.v1/facades/event"
 )
 
 type EventServiceProvider struct {
 }
 
 func (receiver *EventServiceProvider) Register() {
-	facades.Event.Register(receiver.listen())
+	eventfacade.Register(receiver.listen())
 }
 
 func (receiver *EventServiceProvider) Boot() {
