@@ -10,7 +10,7 @@ import (
 func Web() {
 	route.Get("/", func(ctx http.Context) {
 		ctx.Response().Json(200, http.Json{
-			"Hello": "Goravel",
+			"Hello": "Laravel",
 		})
 	})
 

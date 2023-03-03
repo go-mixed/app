@@ -1179,6 +1179,8 @@ gopkg.in/go-mixed/framework.v1 v1.0.0-20230227021055-ec3a64638818 h1:1xNSxAqkwj+
 gopkg.in/go-mixed/framework.v1 v1.0.0-20230227021055-ec3a64638818/go.mod h1:CeOg1DWV3InCLSEfwe6fRSJXYDPk5+vTCI7ZVZdrB2Y=
 gopkg.in/go-mixed/framework.v1 v1.0.0-20230301010630-76cc87680f79 h1:47JyQCpoNti1aJhG9LzZpRkPC6NhrpdaInec2mkGCCE=
 gopkg.in/go-mixed/framework.v1 v1.0.0-20230301010630-76cc87680f79/go.mod h1:CeOg1DWV3InCLSEfwe6fRSJXYDPk5+vTCI7ZVZdrB2Y=
+gopkg.in/go-mixed/framework.v1 v1.0.0-20230303140025-e3ba2a6038c1 h1:a6PnRG6wDQ17wPG2Es3xEt2SIQqm9KNURJ/jwTQ2LNA=
+gopkg.in/go-mixed/framework.v1 v1.0.0-20230303140025-e3ba2a6038c1/go.mod h1:CeOg1DWV3InCLSEfwe6fRSJXYDPk5+vTCI7ZVZdrB2Y=
 gopkg.in/ini.v1 v1.63.2/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
 gopkg.in/ini.v1 v1.64.0 h1:Mj2zXEXcNb5joEiSA0zc3HZpTst/iyjNiR4CN8tDzOg=
 gopkg.in/ini.v1 v1.64.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=

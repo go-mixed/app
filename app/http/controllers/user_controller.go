@@ -16,6 +16,6 @@ func NewUserController() *UserController {
 
 func (r *UserController) Show(ctx http.Context) {
 	ctx.Response().Success().Json(http.Json{
-		"Hello": "Goravel",
+		"Hello": "Laravel",
 	})
 }

@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	google.golang.org/grpc v1.50.1
-	gopkg.in/go-mixed/framework.v1 v1.0.0-20230301010630-76cc87680f79
+	gopkg.in/go-mixed/framework.v1 v1.0.0-20230303140025-e3ba2a6038c1
 )
 
 require (

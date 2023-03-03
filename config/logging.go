@@ -25,12 +25,12 @@ func loggingConfig() {
 			},
 			"single": map[string]any{
 				"driver": "single",
-				"path":   "storage/logs/goravel.log",
+				"path":   "storage/logs/laravel.log",
 				"level":  config.Env("LOG_LEVEL", "debug"),
 			},
 			"daily": map[string]any{
 				"driver": "daily",
-				"path":   "storage/logs/goravel.log",
+				"path":   "storage/logs/laravel.log",
 				"level":  config.Env("LOG_LEVEL", "debug"),
 				"days":   7,
 			},
