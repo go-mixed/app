@@ -1,21 +1,22 @@
 package providers
 
 import (
-	"gopkg.in/go-mixed/framework.v1/contracts/queue"
-	"gopkg.in/go-mixed/framework.v1/facades"
+	queuecontract "gopkg.in/go-mixed/framework.v1/contracts/queue"
+	"gopkg.in/go-mixed/framework.v1/facades/queue"
 )
 
 type QueueServiceProvider struct {
 }
 
-func (receiver *QueueServiceProvider) Register() {
-	facades.Queue.Register(receiver.Jobs())
+func (sp *QueueServiceProvider) Register() {
+
+	queue.Register(sp.Jobs()...)
 }
 
-func (receiver *QueueServiceProvider) Boot() {
+func (sp *QueueServiceProvider) Boot() {
 
 }
 
-func (receiver *QueueServiceProvider) Jobs() []queue.Job {
-	return []queue.Job{}
+func (sp *QueueServiceProvider) Jobs() []queuecontract.IJob {
+	return []queuecontract.IJob{}
 }
