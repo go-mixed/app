@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	google.golang.org/grpc v1.50.1
-	gopkg.in/go-mixed/framework.v1 v1.0.0-20230303140025-e3ba2a6038c1
+	gopkg.in/go-mixed/framework.v1 v1.0.0-20230303141630-77de4e6db6ad
 )
 
 require (
@@ -146,6 +146,7 @@ require (
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/dig v1.16.1 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/net v0.6.0 // indirect
