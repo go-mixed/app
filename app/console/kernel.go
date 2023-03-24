@@ -12,6 +12,6 @@ func (kernel *Kernel) Schedule() []schedule.Event {
 	return []schedule.Event{}
 }
 
-func (kernel *Kernel) Commands() []console.Command {
-	return []console.Command{}
+func (kernel *Kernel) Commands() []console.ICommand {
+	return []console.ICommand{}
 }
