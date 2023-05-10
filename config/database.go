@@ -18,6 +18,7 @@ func databaseConfig() {
 				"database": config.Env("DB_DATABASE", "forge"),
 				"username": config.Env("DB_USERNAME", ""),
 				"password": config.Env("DB_PASSWORD", ""),
+				"prefix":   config.Env("DB_PREFIX", ""),
 				"charset":  "utf8mb4",
 				"loc":      "Local",
 			},
